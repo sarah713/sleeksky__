@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  height: 100px;
+  background-color: #171717;
+  color: azure;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.navbar__logo {
+  display: flex;
+  height: 50px;
+  width: 10px;
+  object-fit: contain;
+  padding: 1rem;
+}
+.navbar__time {
+  display: flex;
+  padding: 0.4em;
+  margin: 1em;
+  border-radius: 0.6em;
+  font-size: 20px;
+  border: 1px solid #e8cbc0;
+  font-family: "Times New Roman", Times, serif;
+}

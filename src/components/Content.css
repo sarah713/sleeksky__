@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: overlay;
+  background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+}

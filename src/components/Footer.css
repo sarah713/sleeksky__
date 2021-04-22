@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 0;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  background-color: #282828;
+}
+.footer > p {
+  padding: 0.8em 1em;
+  background: linear-gradient(to right, #636fa4, #e8cbc0);
+}

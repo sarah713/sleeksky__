@@ -1,0 +1,30 @@
+.sidebar {
+  height: 100vh;
+  flex: 0.2;
+  color: white;
+  height: 100vh;
+  min-width: 230px;
+  background-color: #040404;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar__btn {
+  z-index: 20;
+}
+.sidebar__btn > button {
+  display: flex;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid white;
+  padding: 0.6em 1.5em;
+  font-size: 15px;
+
+  border-radius: 1em;
+}
+.sidebar__btn > button:hover {
+  transform: scale(1.01);
+}
